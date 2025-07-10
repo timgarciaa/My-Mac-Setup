@@ -18,7 +18,8 @@
 16. Setup git config email `git config --global user.email "{email}"`
 
 
-
+17. Install tmux
+18. Install tpm
 Tmux config:
 
 ```
