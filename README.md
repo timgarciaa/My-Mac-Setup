@@ -16,3 +16,30 @@
 14. Install GH
 15. Setup git config name `git config --global user.name "{name}"`
 16. Setup git config email `git config --global user.email "{email}"`
+
+
+
+Tmux config:
+
+```
+set-option -sa terminal-overrides ",xterm*:Tc"
+
+unbind C-b
+set -g prefix C-Space
+bind C-Space send-prefix
+
+bind -n M-H previous-window
+bind -n M-L next-window
+
+set -g base-index 1
+set -g pane-base-index 1
+set-window-option -g pane-base-index 1
+set-option -g renumber-windows on
+
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'christoomey/vim-tmux-navigator'
+set -g @plugin 'catppuccin/tmux'
+
+run '~/.tmux/plugins/tpm/tpm'
+```
