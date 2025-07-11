@@ -44,3 +44,4 @@ set -g @plugin 'catppuccin/tmux'
 
 run '~/.tmux/plugins/tpm/tpm'
 ```
+19. Install plugins ```cd ~/.tmux/plugins/tpm/scripts && ./install_plugins.sh```
