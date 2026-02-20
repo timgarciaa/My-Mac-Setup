@@ -43,4 +43,4 @@ set -g @plugin 'catppuccin/tmux'
 run '~/.tmux/plugins/tpm/tpm'
 ```
 19. Install plugins ```cd ~/.tmux/plugins/tpm/scripts && ./install_plugins.sh``` OR start a new tmux session and do Ctrl + Space followed by Capital I.
-20. Install nvim
+20. Install nvim `brew install neovim`
